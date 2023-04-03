@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,10 +30,10 @@
 
         <article>
             <div class="main-container">
-                <div class="pedidos">
+                <div class="comida">
                     <h2 class="titulo-pedido"> Primeiro, seu prato</h2>
                     <div class="container-pedido">
-                        <div class="pratos">
+                        <div  class="comida1" onclick="selecionarComida('.comida1')">
                             <img class="img-comida" src="src/IMG/frango_yin_yang.png">
                             <div class="pedido-descricao">
                                 <h4> Frango Yin Yang</h4>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="comida2" onclick="selecionarComida('.comida2')">
                             <img class="img-comida" src="src/IMG/frango_yin_yang.png">
                             <div class="pedido-descricao">
                                 <h4> Frango Yin Yang</h4>
@@ -51,7 +51,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="comida3"  onclick="selecionarComida('.comida3')">
                             <img class="img-comida" src="src/IMG/frango_yin_yang.png">
                             <div class="pedido-descricao">
                                 <h4> Frango Yin Yang</h4>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="comida4" onclick="selecionarComida('.comida4')">
                             <img class="img-comida" src="src/IMG/frango_yin_yang.png">
                             <div class="pedido-descricao">
                                 <h4> Frango Yin Yang</h4>
@@ -71,10 +71,10 @@
                     </div>
                 </div>
 
-                <div class="pedidos2">
+                <div class="bebidas">
                     <h2 class="titulo-pedido"> Agora, sua bebida</h2>
                     <div class="container-pedido">
-                        <div class="pratos">
+                        <div class="bebida1" onclick="selecionarBebida('.bebida1')">
                             <img class="img-comida" src="src/IMG/coca-cola.png">
                             <div class="pedido-descricao">
                                 <h4> Coquinha gelada</h4>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="bebida2" onclick="selecionarBebida('.bebida2')">
                             <img class="img-comida" src="src/IMG/coca-cola.png">
                             <div class="pedido-descricao">
                                 <h4> Coquinha gelada</h4>
@@ -92,7 +92,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="bebida3" onclick="selecionarBebida('.bebida3')">
                             <img class="img-comida" src="src/IMG/coca-cola.png">
                             <div class="pedido-descricao">
                                 <h4> Coquinha gelada</h4>
@@ -101,7 +101,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="bebida4" onclick="selecionarBebida('.bebida4')">
                             <img class="img-comida" src="src/IMG/coca-cola.png">
                             <div class="pedido-descricao">
                                 <h4> Coquinha gelada</h4>
@@ -112,10 +112,10 @@
                     </div>
                 </div>
 
-                <div class="pedidos2">
+                <div class="sobremesas">
                     <h2 class="titulo-pedido"> Por fim, sua sobremesa</h2>
                     <div class="container-pedido">
-                        <div class="pratos">
+                        <div class="sobremesa1" onclick="selecionarSobremesa('.sobremesa1')">
                             <img class="img-comida" src="src/IMG/pudim.png">
                             <div class="pedido-descricao">
                                 <h4> Pudim</h4>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="sobremesa2" onclick="selecionarSobremesa('.sobremesa2')">
                             <img class="img-comida" src="src/IMG/pudim.png">
                             <div class="pedido-descricao">
                                 <h4> Pudim</h4>
@@ -133,7 +133,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="sobremesa3" onclick="selecionarSobremesa('.sobremesa3')">
                             <img class="img-comida" src="src/IMG/pudim.png">
                             <div class="pedido-descricao">
                                 <h4> Pudim</h4>
@@ -142,7 +142,7 @@
                             </div>
                         </div>
 
-                        <div class="pratos">
+                        <div class="sobremesa4" onclick="selecionarSobremesa('.sobremesa4')">
                             <img class="img-comida" src="src/IMG/pudim.png">
                             <div class="pedido-descricao">
                                 <h4>Pudim</h4>
@@ -157,16 +157,11 @@
 
         <footer>
             <div class="footer-container-vazio">
-                <div class="botao-finalizar-vazio">
+                <button class="botao-finalizar-vazio">
                     <h3 class="fim-pedido"> Selecione os 3 itens para fechar o pedido</h3>
-                </div>
+                </button>
             </div>
 
-            <div class="footer-container-cheio">
-                <div class="botao-finalizar-cheio">
-                    <h3> Fechar pedido</h3>
-                </div>
-            </div>
         </footer>
    
 

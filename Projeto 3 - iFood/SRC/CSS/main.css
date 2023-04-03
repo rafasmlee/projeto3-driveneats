@@ -17,7 +17,21 @@ body{
     flex-direction: column;
 }
 
-.pedidos{
+.comida{
+    display: flex;   
+    flex-direction: column; 
+
+    margin: 20px 0px 0px 3px;
+}
+
+.bebidas{
+    display: flex;   
+    flex-direction: column; 
+
+    margin: 20px 0px 0px 3px;
+}
+
+.sobremesas{
     display: flex;   
     flex-direction: column; 
 
@@ -52,7 +66,7 @@ div::-webkit-scrollbar{
     color: #333333;
 }
 
-.pratos{
+.comida1, .comida2, .comida3, .comida4{
 
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
@@ -66,6 +80,33 @@ div::-webkit-scrollbar{
 
     
 }
+
+.bebida1, .bebida2, .bebida3, .bebida4{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin: 20px 0px 0px 16px;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.sobremesa1, .sobremesa2, .sobremesa3, .sobremesa4{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin: 20px 0px 0px 16px;
+    gap: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
 
 .img-comida{
     border-radius: 4px;
@@ -115,4 +156,8 @@ div::-webkit-scrollbar{
     margin-top: 5px;
 
     color: #000000;
+}
+
+.selecionado{
+    box-shadow: inset 0px 0px 0px 5px green;
 }

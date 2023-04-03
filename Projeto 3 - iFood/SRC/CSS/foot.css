@@ -2,6 +2,7 @@
     height: 92px;
 
     background-color: white;
+    
 
     display:flex; 
     bottom: 0;
@@ -19,18 +20,18 @@
 
     background: #CBCBCB;
     border-radius: 50px;
+   
 
     justify-content: center;
     align-items: center;
-    text-align: center;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
     text-align: center;
     letter-spacing: 0.018em;
+   
 
     color: #FFFFFF;
 }
@@ -39,6 +40,7 @@
     width: 100%;
     display: flex;
     text-align: center;
+    
   
 }
 
