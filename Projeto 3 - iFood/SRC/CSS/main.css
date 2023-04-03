@@ -159,5 +159,13 @@ div::-webkit-scrollbar{
 }
 
 .selecionado{
-    box-shadow: inset 0px 0px 0px 5px green;
+    box-shadow: inset 0px 0px 0px 5px #32B72F;
+}
+
+.selecionado2{
+    box-shadow: inset 0px 0px 0px 5px #32B72F;
+}
+
+.selecionado3{
+    box-shadow: inset 0px 0px 0px 5px #32B72F;
 }
